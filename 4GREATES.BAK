@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c,d;
+clrscr();
+printf("Enter a value for a,b,c,d:");
+scanf("%d%d%d%d",&a,&b,&c,&d);
+if(a>b && a>c && a>d)
+printf("a is the greatest");
+else if(b>a && b>c && b>d)
+printf("b is the greatest");
+else if(c>a && c>b && c>d)
+printf("c is the greatest");
+else if(a==b==c==d)
+printf("all are equal");
+else
+printf("d is the greatest");
+getch();
+}
+
