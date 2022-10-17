@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+clrscr();
+printf("Enter a value in celcius scale:");
+scanf("%d",&a);
+printf("The value in farenheit scale=%d",a*9/5+32);
+getch();
+}

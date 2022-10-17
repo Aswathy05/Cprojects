@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+float d;
+clrscr();
+printf("\nEnter a value for a:");
+scanf("%d",&a);
+printf("\nEnter a value for b:");
+scanf("%d",&b);
+c=a+b;
+printf("\nThe sum of a and b=%d",c);
+c=a-b;
+printf("\nThe difference of a and b=%d",c);
+c=a*b;
+printf("\nThe product of a and b=%d",c);
+d=(float)a/b;
+printf("\nThe quotient of a and b=%f",d);
+c=a%b;
+printf("\nTHe remainder of and b=%d",c);
+getch();
+}

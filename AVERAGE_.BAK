@@ -1,0 +1,47 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c,d,e,f;
+clrscr();
+printf("Enter mark 1:");
+scanf("%d",&a);
+if(a>100)
+printf("Enter a value below 100!");
+else
+{
+printf("\nEnter mark 2:");
+scanf("%d",&b);
+if(b>100)
+printf("\nEnter a value below 100!");
+else
+{
+printf("\nEnter mark 3:");
+scanf("%d",&c);
+if(c>100)
+printf("Enter a value below 100!");
+else
+{
+printf("\nEnter mark 4:");
+scanf("%d",&d);
+if(d>100)
+printf("Enter a value below 100!");
+else
+{
+printf("\nEnter mark 5:");
+scanf("%d",&e);
+if(e>100)
+printf("Enter a value below 100!");
+else
+{
+f=a+b+c+d+e;
+printf("\nTotal mark=%d",f);
+printf("\nAverage of the marks=%d",f/5);
+printf("\nPercentage of the total mark=%f%",(float)f/5);
+}
+}
+}
+}
+}
+getch();
+}
